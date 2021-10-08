@@ -111,7 +111,7 @@ if(isset($_POST['prev'])){
         </div>
 
         <div class="col-md-8">
-        <!-- jobtitle -->
+        <!-- Review Headline -->
             <label for="validationServer02" class="form-label">Review Headline</label>
             <input type="text" class="form-control <?php echo $errheadline; ?>" id="validationServer02" name="headline" >
             
@@ -125,10 +125,9 @@ if(isset($_POST['prev'])){
         </div>
 
         <div class="col-md-6">
-        <!-- jobtitle -->
+        <!-- Pros -->
             <label for="validationServer06" class="form-label">Pros</label>
-            <textarea class="form-control <?php echo $errpros; ?>" id="validationServer06" name="pros" rows="3">
-            </textarea>
+            <textarea class="form-control <?php echo $errpros; ?>" id="validationServer06" name="pros" rows="3"></textarea>
             <!-- error msg -->
             <div class="valid-feedback">
                 Looks good!
@@ -139,10 +138,9 @@ if(isset($_POST['prev'])){
         </div>
 
         <div class="col-md-6">
-        <!-- jobtitle -->
+        <!-- Cons -->
             <label for="validationServer07" class="form-label">Cons</label>
-            <textarea class="form-control <?php echo $errcons; ?>" id="validationServer07" name="cons" rows="3">
-            </textarea>
+            <textarea class="form-control <?php echo $errcons; ?>" id="validationServer07" name="cons" rows="3"></textarea>
             <!-- error msg -->
             <div class="valid-feedback">
                 Looks good!
@@ -153,10 +151,9 @@ if(isset($_POST['prev'])){
         </div>
 
         <div class="col-md-6">
-        <!-- jobtitle -->
+        <!-- Advice Management -->
             <label for="validationServer02" class="form-label">Advice Management</label>
-            <textarea class="form-control <?php echo $erradmng; ?>" id="validationServer02" name="admng" rows="3">
-            </textarea>
+            <textarea class="form-control <?php echo $erradmng; ?>" id="validationServer02" name="admng" rows="3"></textarea>
             <!-- error msg -->
             <div class="valid-feedback">
                 Looks good!
